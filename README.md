@@ -4,14 +4,14 @@
 ``git init``
 Inicia um novo repositório Git local.
 
-``git remote add origin https``
+``git remote add origin https//meu-repositorio-github.com``
 Adiciona o repositório remoto com o nome origin (o https deve ser a URL do repositório remoto).
 
 ## 📁 Gerenciamento de Arquivos
 ``git add``
 Adiciona todos os arquivos (ou arquivos específicos) ao staging area para serem commitados.
 
-``git commit -m ""``
+``git commit -m "mensagem"``
 Cria um commit com a mensagem entre aspas. Ex: git commit -m "mensagem".
 
 ``git status``
@@ -24,33 +24,33 @@ Desfaz o último commit, mas mantém as mudanças no staging area.
 ``git branch``
 Lista todas as branches locais.
 
-``git branch -M ""``
+``git branch -M Novo_nome``
 Renomeia a branch atual para o nome especificado. Ex: git branch -M main.
 
-``git branch -D "nome_da_branch"``
+``git branch -D Nome_da_branch``
 Deleta forçadamente a branch local especificada.
 
-``git checkout "nome_da_branch"``
+``git checkout Nome_da_branch``
 Troca para a branch especificada.
 
-``git checkout -b "nome_da_branch"``
+``git checkout -b Nome_da_branch``
 Cria e já troca para uma nova branch.
 
 ## 🔀 Integração e Sincronização
 ``git merge``
 Junta a branch atual com outra (é necessário especificar a outra branch depois do comando, ex: git merge develop).
 
-``git pull origin "nome_da_branch"``
+``git pull origin Nome_da_branch``
 Busca e integra alterações da branch remota especificada.
 
-``git push -u origin "nome_da_branch"``
-Envia a branch atual para o repositório remoto. (⚠️ https parece estar fora do lugar — aqui deveria ser o nome da branch.)
+``git push -u origin Nome_da_branch``
+Envia a branch atual para o repositório remoto.
 
-``git push origin "nome_da`_branch"``
+``git push origin Nome_da_branch``
 Envia a branch especificada para o repositório remoto.
 
 ## 📥 Clonagem e Fork
-``git clone https``
+``git clone https//meu-github.com``
 Clona um repositório remoto para o seu computador local (⚠️ https deve ser a URL completa do repositório).
 
 ``git fork``
