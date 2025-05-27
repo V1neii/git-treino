@@ -1,13 +1,13 @@
 # git-treino
 
-📦 Inicialização e Configuração do Repositório
+## 📦 Inicialização e Configuração do Repositório
 git init
 Inicia um novo repositório Git local.
 
 git remote add origin https
 Adiciona o repositório remoto com o nome origin (o https deve ser a URL do repositório remoto).
 
-📁 Gerenciamento de Arquivos
+## 📁 Gerenciamento de Arquivos
 git add
 Adiciona todos os arquivos (ou arquivos específicos) ao staging area para serem commitados.
 
@@ -20,7 +20,7 @@ Mostra o estado atual dos arquivos (modificados, staged, não rastreados, etc.).
 git reset --soft HEAD~1
 Desfaz o último commit, mas mantém as mudanças no staging area.
 
-🌱 Branches
+## 🌱 Branches
 git branch
 Lista todas as branches locais.
 
@@ -36,7 +36,7 @@ Troca para a branch especificada.
 git checkout -b "nome_da_branch"
 Cria e já troca para uma nova branch.
 
-🔀 Integração e Sincronização
+## 🔀 Integração e Sincronização
 git merge
 Junta a branch atual com outra (é necessário especificar a outra branch depois do comando, ex: git merge develop).
 
@@ -49,14 +49,14 @@ Envia a branch atual para o repositório remoto. (⚠️ https parece estar fora
 git push origin "nome_dabranch"
 Envia a branch especificada para o repositório remoto.
 
-📥 Clonagem e Fork
+## 📥 Clonagem e Fork
 git clone https
 Clona um repositório remoto para o seu computador local (⚠️ https deve ser a URL completa do repositório).
 
 git fork
 Esse não é um comando Git. Fork é uma ação feita via GitHub (ou outro serviço similar) para criar uma cópia de um repositório.
 
-⚠️ Observações de Correção
+## ⚠️ Observações de Correção
 Alguns comandos estão com acentos invertidos ou com sintaxe incorreta:
 
 ´´nome_da_branch```, ``nome_da_branch``, ``nome_dabranch`` → Use aspas normais ("branch_name"` ou sem aspas).
