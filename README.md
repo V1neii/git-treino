@@ -55,3 +55,10 @@ Clona um repositório remoto para o seu computador local (⚠️ https deve ser 
 
 ``git fork``
 Esse não é um comando Git. Fork é uma ação feita via GitHub (ou outro serviço similar) para criar uma cópia de um repositório.
+
+## :pencil: Recomendação de canais de Python e programação no geral:
+- Programador Lhama: https://www.youtube.com/@ProgramadorLhama/videos
+- Téo Me Why: https://www.youtube.com/@teomewhy
+- Rafaella Ballerini: https://www.youtube.com/@rafaellaballerini
+- Eduardo Mendes: https://www.youtube.com/@Dunossauro
+- Augusto Galego: https://www.youtube.com/@GutoGalego
