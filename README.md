@@ -1,4 +1,4 @@
-# git-treino
+# git-treino comandos
 
 ## 📦 Inicialização e Configuração do Repositório
 ``git init``
@@ -59,7 +59,7 @@ Esse não é um comando Git. Fork é uma ação feita via GitHub (ou outro servi
 ## :pencil: Para mais informações sobre git:
 - Lista de comandos úteis do GIT: https://gist.github.com/leocomelli/2545add34e4fec21ec16
 
-## :pencil: Recomendação de canais de Python e programação no geral:
+## :pencil: Recomendações de canais de Python e programação no geral:
 - Programador Lhama: https://www.youtube.com/@ProgramadorLhama/videos
 - Téo Me Why: https://www.youtube.com/@teomewhy
 - Rafaella Ballerini: https://www.youtube.com/@rafaellaballerini
