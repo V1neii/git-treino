@@ -7,7 +7,7 @@ import pandas as pd
 from src.merge import obter_merge
 
 
-def handler(data_inicio: datetime = datetime(2025, 5, 31), data_fim: datetime = datetime.today()) -> None:
+def handler(data_inicio: datetime = datetime(2025, 1,1), data_fim: datetime = datetime.today()) -> None:
     """
     Função para baixar os dados do merge a partir de uma data início e data fim.
 
